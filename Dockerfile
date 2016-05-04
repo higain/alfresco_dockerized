@@ -13,5 +13,9 @@ RUN apt-get update && apt-get install -y \
   libxinerama1 \
   libcups2 \
   libdbus-glib-1-2 \
-  libfontconfig1
-  
+  libfontconfig \
+  libSM \
+  libICE \
+  libXrender \
+  libXextlibcups \
+  libGLU
